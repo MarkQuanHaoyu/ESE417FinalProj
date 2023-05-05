@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.9)  5 MAY 2023 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.9)  5 MAY 2023 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -255,6 +255,18 @@ LaTeX Warning: Label `fig:foo' multiply defined.
 
 LaTeX Warning: Label `fig:foo' multiply defined.
 
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
 )
 \openout1 = `case-study.aux'.
 
@@ -311,137 +323,186 @@ File: quality.png Graphic file (type png)
 <use quality.png>
 Package pdftex.def Info: quality.png  used on input line 60.
 (pdftex.def)             Requested size: 198.84584pt x 150.7153pt.
+<heat.jpeg, id=3, 871.255pt x 764.8575pt>
+File: heat.jpeg Graphic file (type jpg)
+<use heat.jpeg>
+Package pdftex.def Info: heat.jpeg  used on input line 70.
+(pdftex.def)             Requested size: 464.39685pt x 407.68335pt.
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./quality.png>]
-<gridSearch.png, id=14, 693.59125pt x 160.6pt>
+<a.jpg, id=15, 431.6125pt x 401.5pt>
+File: a.jpg Graphic file (type jpg)
+<use a.jpg>
+Package pdftex.def Info: a.jpg  used on input line 82.
+(pdftex.def)             Requested size: 237.3876pt x 220.82567pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<s.jpg, id=16, 431.6125pt x 400.49625pt>
+File: s.jpg Graphic file (type jpg)
+<use s.jpg>
+Package pdftex.def Info: s.jpg  used on input line 90.
+(pdftex.def)             Requested size: 237.3876pt x 220.2736pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<v.jpg, id=17, 431.6125pt x 401.5pt>
+File: v.jpg Graphic file (type jpg)
+<use v.jpg>
+Package pdftex.def Info: v.jpg  used on input line 98.
+(pdftex.def)             Requested size: 237.3876pt x 220.82567pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<c.jpg, id=18, 431.6125pt x 401.5pt>
+File: c.jpg Graphic file (type jpg)
+<use c.jpg>
+Package pdftex.def Info: c.jpg  used on input line 106.
+(pdftex.def)             Requested size: 237.3876pt x 220.82567pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<gridSearch.png, id=19, 693.59125pt x 160.6pt>
 File: gridSearch.png Graphic file (type png)
 <use gridSearch.png>
-Package pdftex.def Info: gridSearch.png  used on input line 83.
+Package pdftex.def Info: gridSearch.png  used on input line 129.
 (pdftex.def)             Requested size: 242.76057pt x 56.21083pt.
+[2 <./heat.jpeg>]
 
-Underfull \hbox (badness 1728) in paragraph at lines 89--90
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 135--136
 []\OT1/ptm/m/n/10 K-Nearest Neigh-bors (KNN) is a su-per-vised learn-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 96--97
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 142--143
 []\OT1/ptm/m/n/10 The Sup-port Vec-tor Ma-chine (SVM) is a su-per-vised
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \vbox (badness 6348) has occurred while \output is active []
+
+ [3 <./a.jpg> <./s.jpg> <./v.jpg> <./c.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-<redWineWeight.png, id=15, 489.83pt x 449.68pt>
+<redWineWeight.png, id=26, 489.83pt x 449.68pt>
 File: redWineWeight.png Graphic file (type png)
 <use redWineWeight.png>
-Package pdftex.def Info: redWineWeight.png  used on input line 109.
+Package pdftex.def Info: redWineWeight.png  used on input line 155.
 (pdftex.def)             Requested size: 146.95012pt x 134.90503pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--113
+Underfull \hbox (badness 10000) in paragraph at lines 151--159
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 114--115
+Underfull \hbox (badness 2318) in paragraph at lines 160--161
 \OT1/ptm/m/n/10 the ac-cu-racy of the method four are used which are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 \OML/cmm/m/it/10 nestimators; maxdepth; randomstate; classweight$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 \OT1/ptm/m/n/10 The grid search is im-ple-mented to come up
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 \OT1/ptm/m/n/10 with the best com-bi-na-tion of the hy-per-pa-ram-e-ters,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[2 <./gridSearch.png>]
-<KNNDiffK.jpeg, id=23, 829.0975pt x 681.54625pt>
+<KNNDiffK.jpeg, id=27, 829.0975pt x 681.54625pt>
 File: KNNDiffK.jpeg Graphic file (type jpg)
 <use KNNDiffK.jpeg>
-Package pdftex.def Info: KNNDiffK.jpeg  used on input line 124.
+Package pdftex.def Info: KNNDiffK.jpeg  used on input line 170.
 (pdftex.def)             Requested size: 165.81656pt x 136.30682pt.
-<KNNResult.png, id=24, 469.755pt x 167.62625pt>
-File: KNNResult.png Graphic file (type png)
-<use KNNResult.png>
-Package pdftex.def Info: KNNResult.png  used on input line 132.
-(pdftex.def)             Requested size: 164.41672pt x 58.67006pt.
+<KNNBar.jpeg, id=28, 1008.76875pt x 1010.77625pt>
+File: KNNBar.jpeg Graphic file (type jpg)
+<use KNNBar.jpeg>
+Package pdftex.def Info: KNNBar.jpeg  used on input line 178.
+(pdftex.def)             Requested size: 151.30878pt x 151.6099pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[4 <./gridSearch.png> <./redWineWeight.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 []\OT1/ptm/m/n/10 kernel='rbf', C=1.0, ran-dom-state=0, de-gree=3, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-<SVMResult.png, id=25, 307.1475pt x 128.48pt>
+<SVMResult.png, id=37, 307.1475pt x 128.48pt>
 File: SVMResult.png Graphic file (type png)
 <use SVMResult.png>
-Package pdftex.def Info: SVMResult.png  used on input line 146.
+Package pdftex.def Info: SVMResult.png  used on input line 192.
 (pdftex.def)             Requested size: 153.57336pt x 64.23984pt.
-<SVMHeatMap.jpeg, id=26, 952.55875pt x 1012.78375pt>
+<SVMHeatMap.jpeg, id=38, 952.55875pt x 1012.78375pt>
 File: SVMHeatMap.jpeg Graphic file (type jpg)
 <use SVMHeatMap.jpeg>
-Package pdftex.def Info: SVMHeatMap.jpeg  used on input line 153.
+Package pdftex.def Info: SVMHeatMap.jpeg  used on input line 199.
 (pdftex.def)             Requested size: 266.71463pt x 283.57751pt.
 
-Overfull \hbox (14.71463pt too wide) in paragraph at lines 153--154
+Overfull \hbox (14.71463pt too wide) in paragraph at lines 199--200
  [] 
  []
 
-<SVMPrediction.png, id=27, 504.38437pt x 506.39188pt>
+<SVMPrediction.png, id=39, 504.38437pt x 506.39188pt>
 File: SVMPrediction.png Graphic file (type png)
 <use SVMPrediction.png>
-Package pdftex.def Info: SVMPrediction.png  used on input line 162.
+Package pdftex.def Info: SVMPrediction.png  used on input line 208.
 (pdftex.def)             Requested size: 201.75017pt x 202.55315pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--166
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -452,94 +513,97 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./redWineWeight.png> <./KNNDiffK.jpeg> <./KNNResult.png> <./SVMResult.png>]
-<RandomForestGrid.png, id=34, 677.53125pt x 55.20625pt>
+ [5 <./KNNDiffK.jpeg> <./KNNBar.jpeg> <./SVMResult.png> <./SVMHeatMap.jpeg>]
+<RandomForestGrid.png, id=44, 677.53125pt x 55.20625pt>
 File: RandomForestGrid.png Graphic file (type png)
 <use RandomForestGrid.png>
-Package pdftex.def Info: RandomForestGrid.png  used on input line 174.
+Package pdftex.def Info: RandomForestGrid.png  used on input line 220.
 (pdftex.def)             Requested size: 271.00769pt x 22.08209pt.
 
-Overfull \hbox (19.00769pt too wide) in paragraph at lines 174--175
+Overfull \hbox (19.00769pt too wide) in paragraph at lines 220--221
  [] 
  []
 
-<randomForestResult.png.png, id=35, 722.7pt x 201.75375pt>
+<randomForestResult.png.png, id=45, 722.7pt x 201.75375pt>
 File: randomForestResult.png.png Graphic file (type png)
 <use randomForestResult.png.png>
-Package pdftex.def Info: randomForestResult.png.png  used on input line 184.
+Package pdftex.def Info: randomForestResult.png.png  used on input line 230.
 (pdftex.def)             Requested size: 216.81166pt x 60.52658pt.
-<RandomForestKfold.png, id=36, 396.48125pt x 262.9825pt>
+<RandomForestKfold.png, id=46, 396.48125pt x 262.9825pt>
 File: RandomForestKfold.png Graphic file (type png)
 <use RandomForestKfold.png>
-Package pdftex.def Info: RandomForestKfold.png  used on input line 192.
+Package pdftex.def Info: RandomForestKfold.png  used on input line 238.
 (pdftex.def)             Requested size: 158.58968pt x 105.19113pt.
-<RandomForestBar.jpeg, id=37, 726.715pt x 715.67375pt>
+<RandomForestBar.jpeg, id=47, 726.715pt x 715.67375pt>
 File: RandomForestBar.jpeg Graphic file (type jpg)
 <use RandomForestBar.jpeg>
-Package pdftex.def Info: RandomForestBar.jpeg  used on input line 200.
+Package pdftex.def Info: RandomForestBar.jpeg  used on input line 246.
 (pdftex.def)             Requested size: 109.00253pt x 107.34642pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--205
+Underfull \hbox (badness 10000) in paragraph at lines 216--251
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./SVMHeatMap.jpeg> <./SVMPrediction.png> <./RandomForestGrid.png> <./randomForestResult.png.png> <./RandomForestKfold.png> <./RandomForestBar.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 210--211
+Underfull \hbox (badness 2401) in paragraph at lines 256--257
 []\OT1/ptm/m/n/10 The study also demon-strated that data clean-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 
-Overfull \hbox (6.42873pt too wide) in paragraph at lines 218--219
+Overfull \hbox (6.42873pt too wide) in paragraph at lines 264--265
 []\OT1/ptm/m/n/8 Wine Qual-ity Data Set, https://archive.ics.uci.edu/ml/datasets/wine+quality 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 []\OT1/ptm/m/n/8 Scikit$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 learn Sup-port Vec-tor Ma-chine (SVM), https://scikit-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+[6 <./SVMPrediction.png> <./RandomForestGrid.png> <./randomForestResult.png.png> <./RandomForestKfold.png> <./RandomForestBar.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 []\OT1/ptm/m/n/8 Scikit$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 learn Ran-dom For-est Clas-si-fier,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 \OT1/ptm/m/n/8 https://scikit-learn.org/stable/modules/generated
  []
 
-./case-study.tex:221: Missing { inserted.
+./case-study.tex:267: Missing { inserted.
 <to be read again> 
                    $
-l.221 ...stable/modules/generated/sklearn.model$_$
+l.267 ...stable/modules/generated/sklearn.model$_$
                                                   selection.GridSearchCV.html
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./case-study.tex:221: Missing } inserted.
+./case-study.tex:267: Missing } inserted.
 <inserted text> 
                 }
-l.221 ...stable/modules/generated/sklearn.model$_$
+l.267 ...stable/modules/generated/sklearn.model$_$
                                                   selection.GridSearchCV.html
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -548,22 +612,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 []\OT1/ptm/m/n/8 Scikit-learn Grid Search Cross Val-i-da-tion, https://scikit-
  []
 
 
-Overfull \hbox (19.83307pt too wide) in paragraph at lines 221--222
+Overfull \hbox (19.83307pt too wide) in paragraph at lines 267--268
 \OT1/ptm/m/n/8 learn.org/stable/modules/generated/sklearn.model$[]$selection.GridSearchCV.html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 []\OT1/ptm/m/n/8 Scikit$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 learn K$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 Nearest Neigh-bors Clas-si-fier, https://scikit-
  []
 
 
-Overfull \hbox (24.82109pt too wide) in paragraph at lines 222--223
+Overfull \hbox (24.82109pt too wide) in paragraph at lines 268--269
 \OT1/ptm/m/n/8 learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html 
  []
 
@@ -578,7 +642,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
+[7
 
 ] (/Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.aux)
 
@@ -586,18 +650,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4256 strings out of 478268
- 67251 string characters out of 5846348
- 370920 words of memory out of 5000000
- 22417 multiletter control sequences out of 15000+600000
+ 4292 strings out of 478268
+ 67597 string characters out of 5846348
+ 369920 words of memory out of 5000000
+ 22447 multiletter control sequences out of 15000+600000
  509390 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,62p,1046b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.pdf (5 pages, 1029212 bytes).
+Output written on /Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.pdf (7 pages, 1293880 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
