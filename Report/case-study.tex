@@ -11,7 +11,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{ESE 417 Final Project Classification of Wine Quality by Machine Learning}
+\title{Classification of Red Wine Quality using Various Machine Learning Algorithms}
 
 \author{\IEEEauthorblockN{1\textsuperscript{st} Haoyu Quan}
 \IEEEauthorblockA{\textit{ Mckelvey School of Engineering} \\
@@ -25,7 +25,7 @@ quanhaoyu@wustl.edu}
 St. Louis, MO \\
 a.qiao@wustl.edu}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Bruce Li}
+\IEEEauthorblockN{3\textsuperscript{rd} Bruce Li}
 \IEEEauthorblockA{\textit{ Mckelvey School of Engineering} \\
 \textit{Washington University in St. Louis}\\
 St. Louis, MO \\
@@ -41,8 +41,35 @@ The primary objective of this project is to build a machine learning model that 
 After multiple testing and trial and error iterations, the model was able to achieve an accuracy rate of over 60 percent. Overall, this project demonstrates the effectiveness of supervised machine learning algorithms in predicting the quality of wine based on various influential factors during the production process.\\
 
 \section{Methods}
-\subsection{Exploratory Data Analysis and Cleaning}
-\subsection{KNN}
+\subsection{Exploratory Data Analysis}
+
+
+The dataset used in this project was introduced by Cortez et al. [citation]
+
+The dataset is a collection of 1599 samples, each representing a different red wine, with 11 physicochemical attributes that describe the properties of the wine accompanied with a quality rating. These attributes includes but not limited to: amount of various acid, residual sugar, chlorides, sulfates in the wine; density; pH value; alcohol content; etc. The quality rating is scored as an integer between 0 and 9.
+
+
+
+
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.35]{quality.png}}
+	\caption{Quality distribution of the dataset}
+	\end{center}
+	\end{figure}
+
+
+\subsection{Data Cleaning}
+
+As the first step of the data cleaning process, duplicates are removed. Including duplicates will lead to the model overfitting this subset of points. Besides that, data leakage from validation to training data can occur  due to duplicates present in both sets, which would lead to an fictitious increase in validation performance of the model since duplicates were already learned during training.
+
+Furthermore, outliers in the dataset are removed as the presence of outliers can affect the accuracy of statistical models. Outliers might cause the model to skew towards them, resulting in an inaccurate representation of the underlying data distribution. This can lead to overfitting, where the model fits the training data too closely and performs poorly on new, unseen data. Especially, outliers affect the performance of models based on distance measures, such as k-nearest neighbors. In KNN, outliers can be misclassified or affect the clustering of other data points, leading to inaccurate results.
+
+
+
+
+
 \subsection{Grid Search and Weighted Features}
 Grid search is a widely used hyperparameter optimization technique in machine learning that involves systematically evaluating a range of hyperparameters for a given model. This technique entails creating a grid of all possible combinations of hyperparameters and training a model for each combination. The optimal combination of hyperparameters is then determined by selecting the one that yields the highest accuracy or lowest error rate, depending on the specific problem being addressed.\\
 In the present project, grid search was employed to fine-tune the hyperparameters of the Support Vector Machine (SVM) model. Specifically, the hyperparameters C and gamma were tuned using grid search to optimize the model's performance. These two hyperparameters are of particular importance in determining the efficacy of the SVM model in handling the data at hand.\\
@@ -54,6 +81,13 @@ To accomplish this, a two-stage approach was used, where a broad range of C and 
 	\caption{Grid Search Code}
 	\end{center}
 	\end{figure}
+	
+\subsection{KNN}
+K-Nearest Neighbors (KNN) is a supervised learning algorithm that can be utilized for both classification and regression tasks. The fundamental principle of KNN is to classify a data point based on the class labels of its K-nearest neighbors in the feature space. The choice of K, as well as the metric used for calculating distance, are important factors that influence the performance of the model.
+
+%KNN is a popular algorithm due to its simplicity and ease of implementation. It can easily adapt to various training datasets and requires only a few hyperparameters to be tuned, namely the value of K and the distance metric.
+%
+%However, there are certain limitations to KNN. Firstly, it is considered a lazy algorithm, meaning it does not perform any training during the model building process, which results in increased computational resources and memory usage. Secondly, KNN struggles with high-dimensional data inputs, since the distance metric becomes less reliable as the number of dimensions increases.
 
 \subsection{SVM}
 The Support Vector Machine (SVM) is a supervised machine learning algorithm that has gained popularity for its success in various classification tasks, including wine quality classification. SVM works by identifying a decision boundary that effectively separates the different categories of wine quality in the feature space.\\
