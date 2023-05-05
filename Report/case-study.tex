@@ -33,6 +33,9 @@ liyifei@wustl.edu}
 }
 
 \maketitle
+\begin{abstract}
+	This study implemented three machine learning classification methods, KNN, SVM, and Random Forest, on the UCI red-wine dataset to classify wines. Results showed that the KNN method had the lowest performance with an accuracy of 61.97$\%$ and an MSE of 0.4985, while the SVM method performed better with an accuracy of 65.87$\%$ and an MSE of 0.4678. The Random Forest method achieved the highest accuracy of 75$\%$ and the lowest MSE of 0.35. The study highlights the importance of data cleaning and standardization in improving the accuracy and MSE of machine learning models. The findings suggest that the Random Forest method is the most effective approach for wine classification.
+\end{abstract}
 \section{Introduction}
 Machine learning is a branch of artificial intelligence that enables machines to learn from data and make predictions or decisions without being explicitly programmed. It finds applications in a wide range of domains such as image recognition, natural language processing, and predictive modeling. In this project, we aim to use supervised machine learning algorithms to classify a wine quality data set based on 11 given features. While wine was once viewed as a luxury good, it is now enjoyed by a wider range of consumers. Quality evaluation is a crucial part of the certification process and can help to identify influential factors during the wine production process [citation 1]. In our project, these factors will be used as features for our machine learning algorithm.\\
 
@@ -66,14 +69,16 @@ In this project, SVM has been trained with raw data then with the standardized a
 
 \subsection{Random Forest}
 Random Forest is an ensemble learning algorithm that is used for classification tasks. It works by constructing multiple decision trees and then combining their predictions to make a final prediction. The algorithm randomly selects a subset of features and a subset of training samples for each decision tree, which helps to reduce overfitting and improve the performance of the model.Also, to simplify the process, the sklearn method of RandomForestClassifier() is used to classify the wine quality. (sklearn). There are eleven features imputed to the ML algorithm. Because the correlation of the wine quality is more related to some features than others, the features need to be considered differently while imputed into the machine learning algorithm. Here are the weights for each feature used in the program :{1: 10, 2: 10, 3: 69, 4: 1, 5: 1, 6: 1, 7: 1, 8: 34, 9: 10, 10: 10, 11: 80.  Those weights are estimated from the input importance of the people originally conducting the experiments.\\
-	Due to their great variety of hyperparameters, to optimize the accuracy of the method four are used which are $n estimators, max depth, random state, class weight$. The grid search is implemented to come up with the best combination of the hyperparameters, $ 'max depth': 15, 'n estimators': 700$. With given depth and number of estimators the Machine learning algorithm would output the best performances.\\
 	\begin{figure}[h]
 	\label{fig:foo}
 	\begin{center}
-	\includegraphics[scale=0.35]{redWineWeight.png}
+	\includegraphics[scale=0.3]{redWineWeight.png}
 	\caption{Red Wine Weight}
 	\end{center}
 	\end{figure}\\
+
+Due to their great variety of hyperparameters, to optimize the accuracy of the method four are used which are $n estimators, max depth, random state, class weight$. The grid search is implemented to come up with the best combination of the hyperparameters, $ 'max depth': 15, 'n estimators': 700$. With given depth and number of estimators the Machine learning algorithm would output the best performances.\\
+	
 	
 \section{Result and Analysis}
 Implementing the three method mentioned above shows Random Forest does the best in all the methods. 
@@ -91,7 +96,16 @@ A grid search was then performed for the hyperparameters, with C ranging from 0.
 	\caption{SVM Result}
 	\end{center}
 	\end{figure}\\
-With the methods implementation, the MSE is decreasing, which is a good indicator, because 
+With the methods implementation, the MSE is decreasing, which is a good indicator, because MSE represents the situation of misidentification.
+The mis-identification figure is shown below:
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.4]{SVMPrediction.png}
+	\caption{SVM Prediction}
+	\end{center}
+	\end{figure}\\
+
 
 
 
@@ -115,6 +129,31 @@ All method used the random state of 3
 	\caption{Random Forest Result}
 	\end{center}
 	\end{figure}
+K-fold cross-validation is a technique used in machine learning to evaluate the performance of a model and to prevent overfitting. For cv = 10, K-fold average result is 0.68 which indicates the optimal accuracy does not deviate a lot from the average accuracy.
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.4]{RandomForestKfold.png}
+	\caption{Random Forest K-fold Analysis}
+	\end{center}
+	\end{figure}\\
+The prediction correctness is shown in figure below:\\
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.3]{RandomForestBar.jpeg}
+	\caption{Random Forest Correctness}
+	\end{center}
+	\end{figure}\\
+	
+	
+\section{Conclusion}}
+
+In this study, three machine learning classification methods, namely KNN, SVM, and Random Forest, were implemented to classify wines based on the UCI red-wine dataset. The KNN method had the lowest performance with an accuracy of 61.97$\%$ and a mean squared error (MSE) of 0.4985. The SVM method performed better than KNN, achieving an accuracy of 65.87$\%$ and an MSE of 0.4678. The Random Forest method outperformed the other two methods, with an accuracy of 75$\%$ and an MSE of 0.35.\\
+
+The study also demonstrated that data cleaning and standardization were effective in improving the accuracy and lowering the MSE. These preprocessing techniques should be considered as a crucial step in machine learning classification tasks.\\
+
+In conclusion, the Random Forest method was found to be the most effective in classifying wines based on the UCI red-wine dataset. The study highlights the importance of data cleaning and standardization in improving the accuracy and MSE of machine learning classification models. \\
 
 
 
