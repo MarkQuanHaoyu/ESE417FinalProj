@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.9)  5 MAY 2023 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.9)  5 MAY 2023 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,6 +234,15 @@ LaTeX Warning: Label `fig:foo' multiply defined.
 
 LaTeX Warning: Label `fig:foo' multiply defined.
 
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
 )
 \openout1 = `case-study.aux'.
 
@@ -281,42 +290,37 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 2980) in paragraph at lines 37--38
+Underfull \hbox (badness 2980) in paragraph at lines 40--41
 \OT1/ptm/m/n/10 recog-ni-tion, nat-u-ral lan-guage pro-cess-ing, and pre-dic-tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 <gridSearch.png, id=1, 693.59125pt x 160.6pt>
 File: gridSearch.png Graphic file (type png)
 <use gridSearch.png>
-Package pdftex.def Info: gridSearch.png  used on input line 53.
+Package pdftex.def Info: gridSearch.png  used on input line 56.
 (pdftex.def)             Requested size: 242.76057pt x 56.21083pt.
 
-Underfull \hbox (badness 1694) in paragraph at lines 59--60
+Underfull \hbox (badness 1694) in paragraph at lines 62--63
 []\OT1/ptm/m/n/10 The Sup-port Vec-tor Ma-chine (SVM) is a su-per-vised
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
@@ -324,82 +328,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
 
  <./gridSearch.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<redWineWeight.png, id=11, 489.83pt x 449.68pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+<redWineWeight.png, id=14, 489.83pt x 449.68pt>
 File: redWineWeight.png Graphic file (type png)
 <use redWineWeight.png>
-Package pdftex.def Info: redWineWeight.png  used on input line 73.
-(pdftex.def)             Requested size: 171.44305pt x 157.39035pt.
+Package pdftex.def Info: redWineWeight.png  used on input line 75.
+(pdftex.def)             Requested size: 146.95012pt x 134.90503pt.
 
-Underfull \hbox (badness 2318) in paragraph at lines 68--77
+Underfull \hbox (badness 10000) in paragraph at lines 71--79
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 80--81
 \OT1/ptm/m/n/10 the ac-cu-racy of the method four are used which are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--77
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 \OML/cmm/m/it/10 nestimators; maxdepth; randomstate; classweight$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--77
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 \OT1/ptm/m/n/10 The grid search is im-ple-mented to come up
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--77
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 \OT1/ptm/m/n/10 with the best com-bi-na-tion of the hy-per-pa-ram-e-ters,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--77
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 []\OT1/ptm/m/n/10 kernel='rbf', C=1.0, ran-dom-state=0, de-gree=3, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-<SVMResult.png, id=12, 307.1475pt x 128.48pt>
+<SVMResult.png, id=15, 307.1475pt x 128.48pt>
 File: SVMResult.png Graphic file (type png)
 <use SVMResult.png>
-Package pdftex.def Info: SVMResult.png  used on input line 90.
+Package pdftex.def Info: SVMResult.png  used on input line 95.
 (pdftex.def)             Requested size: 153.57336pt x 64.23984pt.
+<SVMPrediction.png, id=16, 504.38437pt x 506.39188pt>
+File: SVMPrediction.png Graphic file (type png)
+<use SVMPrediction.png>
+Package pdftex.def Info: SVMPrediction.png  used on input line 104.
+(pdftex.def)             Requested size: 201.75017pt x 202.55315pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--94
+Underfull \hbox (badness 10000) in paragraph at lines 91--108
 
  []
 
-<RandomForestGrid.png, id=13, 677.53125pt x 55.20625pt>
-File: RandomForestGrid.png Graphic file (type png)
-<use RandomForestGrid.png>
-Package pdftex.def Info: RandomForestGrid.png  used on input line 103.
-(pdftex.def)             Requested size: 237.13948pt x 19.32246pt.
-<randomForestResult.png.png, id=14, 722.7pt x 201.75375pt>
-File: randomForestResult.png.png Graphic file (type png)
-<use randomForestResult.png.png>
-Package pdftex.def Info: randomForestResult.png.png  used on input line 113.
-(pdftex.def)             Requested size: 216.81166pt x 60.52658pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./redWineWeight.png> <./SVMResult.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<RandomForestGrid.png, id=17, 677.53125pt x 55.20625pt>
+File: RandomForestGrid.png Graphic file (type png)
+<use RandomForestGrid.png>
+Package pdftex.def Info: RandomForestGrid.png  used on input line 118.
+(pdftex.def)             Requested size: 237.13948pt x 19.32246pt.
+<randomForestResult.png.png, id=18, 722.7pt x 201.75375pt>
+File: randomForestResult.png.png Graphic file (type png)
+<use randomForestResult.png.png>
+Package pdftex.def Info: randomForestResult.png.png  used on input line 128.
+(pdftex.def)             Requested size: 216.81166pt x 60.52658pt.
+<RandomForestKfold.png, id=19, 396.48125pt x 262.9825pt>
+File: RandomForestKfold.png Graphic file (type png)
+<use RandomForestKfold.png>
+Package pdftex.def Info: RandomForestKfold.png  used on input line 136.
+(pdftex.def)             Requested size: 158.58968pt x 105.19113pt.
+<RandomForestBar.jpeg, id=20, 726.715pt x 715.67375pt>
+File: RandomForestBar.jpeg Graphic file (type jpg)
+<use RandomForestBar.jpeg>
+Package pdftex.def Info: RandomForestBar.jpeg  used on input line 144.
+(pdftex.def)             Requested size: 218.01617pt x 214.70378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--148
+
+ []
+
+[2 <./redWineWeight.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 154--155
+[]\OT1/ptm/m/n/10 The study also demon-strated that data clean-ing and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[3 <./SVMResult.png> <./SVMPrediction.png> <./RandomForestGrid.png> <./randomForestResult.png.png> <./RandomForestKfold.png> <./RandomForestBar.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -411,30 +467,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[4
 
- <./RandomForestGrid.png> <./randomForestResult.png.png>] (/Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.aux)
+] (/Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 68 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 4176 strings out of 478268
- 66002 string characters out of 5846348
- 369902 words of memory out of 5000000
- 22354 multiletter control sequences out of 15000+600000
- 503454 words of font info for 99 fonts, out of 8000000 for 9000
+ 4219 strings out of 478268
+ 66705 string characters out of 5846348
+ 371902 words of memory out of 5000000
+ 22384 multiletter control sequences out of 15000+600000
+ 508759 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,62p,1035b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.pdf (3 pages, 429397 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.pdf (4 pages, 547837 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
