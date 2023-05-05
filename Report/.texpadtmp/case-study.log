@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.9)  5 MAY 2023 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.9)  5 MAY 2023 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,6 +246,9 @@ LaTeX Warning: Label `fig:foo' multiply defined.
 
 LaTeX Warning: Label `fig:foo' multiply defined.
 
+
+LaTeX Warning: Label `fig:foo' multiply defined.
+
 )
 \openout1 = `case-study.aux'.
 
@@ -317,15 +320,6 @@ File: quality.png Graphic file (type png)
 <use quality.png>
 Package pdftex.def Info: quality.png  used on input line 60.
 (pdftex.def)             Requested size: 198.84584pt x 150.7153pt.
-./case-study.tex:60: Extra }, or forgotten \endgroup.
-l.60 	\includegraphics[scale=0.35]{quality.png}}
-                                                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -413,59 +407,140 @@ File: SVMResult.png Graphic file (type png)
 <use SVMResult.png>
 Package pdftex.def Info: SVMResult.png  used on input line 129.
 (pdftex.def)             Requested size: 153.57336pt x 64.23984pt.
-<SVMPrediction.png, id=23, 504.38437pt x 506.39188pt>
+<SVMHeatMap.jpeg, id=23, 952.55875pt x 1012.78375pt>
+File: SVMHeatMap.jpeg Graphic file (type jpg)
+<use SVMHeatMap.jpeg>
+Package pdftex.def Info: SVMHeatMap.jpeg  used on input line 136.
+(pdftex.def)             Requested size: 266.71463pt x 283.57751pt.
+
+Overfull \hbox (14.71463pt too wide) in paragraph at lines 136--137
+ [] 
+ []
+
+<SVMPrediction.png, id=24, 504.38437pt x 506.39188pt>
 File: SVMPrediction.png Graphic file (type png)
 <use SVMPrediction.png>
-Package pdftex.def Info: SVMPrediction.png  used on input line 138.
+Package pdftex.def Info: SVMPrediction.png  used on input line 145.
 (pdftex.def)             Requested size: 201.75017pt x 202.55315pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--142
+Underfull \hbox (badness 10000) in paragraph at lines 125--149
 
  []
 
-<RandomForestGrid.png, id=24, 677.53125pt x 55.20625pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<RandomForestGrid.png, id=25, 677.53125pt x 55.20625pt>
 File: RandomForestGrid.png Graphic file (type png)
 <use RandomForestGrid.png>
-Package pdftex.def Info: RandomForestGrid.png  used on input line 152.
+Package pdftex.def Info: RandomForestGrid.png  used on input line 159.
 (pdftex.def)             Requested size: 237.13948pt x 19.32246pt.
-<randomForestResult.png.png, id=25, 722.7pt x 201.75375pt>
+<randomForestResult.png.png, id=26, 722.7pt x 201.75375pt>
 File: randomForestResult.png.png Graphic file (type png)
 <use randomForestResult.png.png>
-Package pdftex.def Info: randomForestResult.png.png  used on input line 162.
+Package pdftex.def Info: randomForestResult.png.png  used on input line 169.
 (pdftex.def)             Requested size: 216.81166pt x 60.52658pt.
-<RandomForestKfold.png, id=26, 396.48125pt x 262.9825pt>
+<RandomForestKfold.png, id=27, 396.48125pt x 262.9825pt>
 File: RandomForestKfold.png Graphic file (type png)
 <use RandomForestKfold.png>
-Package pdftex.def Info: RandomForestKfold.png  used on input line 170.
+Package pdftex.def Info: RandomForestKfold.png  used on input line 177.
 (pdftex.def)             Requested size: 158.58968pt x 105.19113pt.
-<RandomForestBar.jpeg, id=27, 726.715pt x 715.67375pt>
+<RandomForestBar.jpeg, id=28, 726.715pt x 715.67375pt>
 File: RandomForestBar.jpeg Graphic file (type jpg)
 <use RandomForestBar.jpeg>
-Package pdftex.def Info: RandomForestBar.jpeg  used on input line 178.
+Package pdftex.def Info: RandomForestBar.jpeg  used on input line 185.
 (pdftex.def)             Requested size: 218.01617pt x 214.70378pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--182
-
- []
-
-[3 <./redWineWeight.png> <./SVMResult.png> <./SVMPrediction.png> <./RandomForestGrid.png> <./randomForestResult.png.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 155--189
 
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 188--189
+Underfull \vbox (badness 6001) has occurred while \output is active []
+
+ [3 <./redWineWeight.png> <./SVMResult.png> <./SVMHeatMap.jpeg> <./SVMPrediction.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 195--196
 []\OT1/ptm/m/n/10 The study also demon-strated that data clean-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
+ []
+
+
+Overfull \hbox (6.42873pt too wide) in paragraph at lines 202--203
+[]\OT1/ptm/m/n/8 Wine Qual-ity Data Set, https://archive.ics.uci.edu/ml/datasets/wine+quality 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+[]\OT1/ptm/m/n/8 Scikit$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 learn Sup-port Vec-tor Ma-chine (SVM), https://scikit-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[]\OT1/ptm/m/n/8 Scikit$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 learn Ran-dom For-est Clas-si-fier,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+\OT1/ptm/m/n/8 https://scikit-learn.org/stable/modules/generated
+ []
+
+./case-study.tex:206: Missing { inserted.
+<to be read again> 
+                   $
+l.206 ...stable/modules/generated/sklearn.model$_$
+                                                  selection.GridSearchCV.html
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./case-study.tex:206: Missing } inserted.
+<inserted text> 
+                }
+l.206 ...stable/modules/generated/sklearn.model$_$
+                                                  selection.GridSearchCV.html
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+[]\OT1/ptm/m/n/8 Scikit-learn Grid Search Cross Val-i-da-tion, https://scikit-
+ []
+
+
+Overfull \hbox (19.83307pt too wide) in paragraph at lines 206--207
+\OT1/ptm/m/n/8 learn.org/stable/modules/generated/sklearn.model$[]$selection.GridSearchCV.html 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+[]\OT1/ptm/m/n/8 Scikit$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 learn K$\OMS/cmsy/m/n/8 ^^@$\OT1/ptm/m/n/8 Nearest Neigh-bors Clas-si-fier, https://scikit-
+ []
+
+
+Overfull \hbox (24.82109pt too wide) in paragraph at lines 207--208
+\OT1/ptm/m/n/8 learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html 
  []
 
 
@@ -479,24 +554,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./RandomForestKfold.png> <./RandomForestBar.jpeg>] (/Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.aux)
+[4 <./RandomForestGrid.png> <./randomForestResult.png.png> <./RandomForestKfold.png> <./RandomForestBar.jpeg>] (/Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4226 strings out of 478268
- 66813 string characters out of 5846348
- 370902 words of memory out of 5000000
- 22390 multiletter control sequences out of 15000+600000
- 508759 words of font info for 113 fonts, out of 8000000 for 9000
+ 4242 strings out of 478268
+ 67008 string characters out of 5846348
+ 370920 words of memory out of 5000000
+ 22405 multiletter control sequences out of 15000+600000
+ 509390 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,62p,1035b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.pdf (4 pages, 593254 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/haoyu/Desktop/ESE417/ESE417FinalProj/Report/.texpadtmp/case-study.pdf (4 pages, 947203 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

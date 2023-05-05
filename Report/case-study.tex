@@ -57,7 +57,7 @@ The dataset is a collection of 1599 samples, each representing a different red w
 	\begin{figure}[h]
 	\label{fig:foo}
 	\begin{center}
-	\includegraphics[scale=0.35]{quality.png}}
+	\includegraphics[scale=0.35]{quality.png}
 	\caption{Quality distribution of the dataset}
 	\end{center}
 	\end{figure}
@@ -129,6 +129,13 @@ A grid search was then performed for the hyperparameters, with C ranging from 0.
 	\includegraphics[scale=0.5]{SVMResult.png}
 	\caption{SVM Result}
 	\end{center}
+	\end{figure}
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.28]{SVMHeatMap.jpeg}
+	\caption{SVM Grid Search Result}
+	\end{center}
 	\end{figure}\\
 With the methods implementation, the MSE is decreasing, which is a good indicator, because MSE represents the situation of misidentification.
 The mis-identification figure is shown below:
@@ -190,7 +197,14 @@ The study also demonstrated that data cleaning and standardization were effectiv
 In conclusion, the Random Forest method was found to be the most effective in classifying wines based on the UCI red-wine dataset. The study highlights the importance of data cleaning and standardization in improving the accuracy and MSE of machine learning classification models. \\
 
 
-\begin{citations}
-	
-\end{citations}
+
+\begin{thebibliography}{00}
+\bibitem{b1} Wine Quality Data Set, https://archive.ics.uci.edu/ml/datasets/wine+quality
+\bibitem{b2} P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis, "Modeling wine preferences by data mining from physicochemical properties," in IEEE Transactions on Neural Networks, vol. 17, no. 5, pp. 1136-1140, Sept. 2006. doi: 10.1109/TNN.2006.176
+\bibitem{b3} Scikit$-$learn Support Vector Machine (SVM), https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+\bibitem{b4} Scikit$-$learn Random Forest Classifier, https://scikit-learn.org/stable/modules/generated sklearn.ensemble.RandomForestClassifier.html
+\bibitem{b5} Scikit-learn Grid Search Cross Validation, https://scikit-learn.org/stable/modules/generated/sklearn.model$_$selection.GridSearchCV.html
+\bibitem{b6} Scikit$-$learn K$-$Nearest Neighbors Classifier, https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+\end{thebibliography}
+
 \end{document}
