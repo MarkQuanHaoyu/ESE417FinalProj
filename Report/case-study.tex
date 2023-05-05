@@ -51,16 +51,34 @@ The dataset used in this project was introduced by Cortez et al. [citation]
 
 The dataset is a collection of 1599 samples, each representing a different red wine, with 11 physicochemical attributes that describe the properties of the wine accompanied with a quality rating. These attributes includes but not limited to: amount of various acid, residual sugar, chlorides, sulfates in the wine; density; pH value; alcohol content; etc. The quality rating is scored as an integer between 0 and 9.
 
+As the original research aims to find which chemical properties influence the quality of red wines, we here focus on analyzing the column of wine quality.
+
+
+
 
 
 
 	\begin{figure}[h]
 	\label{fig:foo}
 	\begin{center}
-	\includegraphics[scale=0.35]{quality.png}}
+	\includegraphics[scale=0.35]{quality.png}
 	\caption{Quality distribution of the dataset}
 	\end{center}
 	\end{figure}
+	
+	As shown in figure 1, according to the samples, wine scores are in range from 3 to 8, and most of them have a score of 5 and 6.
+	
+	
+	\begin{figure*}
+	\begin{center}
+	\includegraphics[width=0.9\linewidth]{heat.jpeg}
+	\caption{Heat map of correlations between variables}
+	\end{center}
+	\end{figure*}
+	
+	From the heat map in figure 2, we can conclude that alcohol, volatile acidity, citric acid and sulfates have most correlated attributes with quality. Besides that, the heat map shows that alcohol has a weak positive correlation with the pH value, citric acid and density have a strong positive correlation with fixed acidity, and pH has a negative correlation with density, fixed acidity, citric acid, and sulfates.
+
+
 
 
 \subsection{Data Cleaning}
