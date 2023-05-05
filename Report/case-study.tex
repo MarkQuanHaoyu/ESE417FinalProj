@@ -47,7 +47,7 @@ After multiple testing and trial and error iterations, the model was able to ach
 \subsection{Exploratory Data Analysis}
 
 
-The dataset used in this project was introduced by Cortez et al. [citation]
+The dataset used in this project was introduced by Cortez et al.\cite{b2}
 
 The dataset is a collection of 1599 samples, each representing a different red wine, with 11 physicochemical attributes that describe the properties of the wine accompanied with a quality rating. These attributes includes but not limited to: amount of various acid, residual sugar, chlorides, sulfates in the wine; density; pH value; alcohol content; etc. The quality rating is scored as an integer between 0 and 9.
 
@@ -75,7 +75,7 @@ Furthermore, outliers in the dataset are removed as the presence of outliers can
 
 \subsection{Grid Search and Weighted Features}
 Grid search is a widely used hyperparameter optimization technique in machine learning that involves systematically evaluating a range of hyperparameters for a given model. This technique entails creating a grid of all possible combinations of hyperparameters and training a model for each combination. The optimal combination of hyperparameters is then determined by selecting the one that yields the highest accuracy or lowest error rate, depending on the specific problem being addressed.\\
-In the present project, grid search was employed to fine-tune the hyperparameters of the Support Vector Machine (SVM) model. Specifically, the hyperparameters C and gamma were tuned using grid search to optimize the model's performance. These two hyperparameters are of particular importance in determining the efficacy of the SVM model in handling the data at hand.\\
+In the present project, grid search was employed to fine-tune the hyperparameters of the Support Vector Machine (SVM) model. Specifically, the hyperparameters C and gamma were tuned using grid search to optimize the model's performance. These two hyperparameters are of particular importance in determining the efficacy of the SVM model in handling the data at hand.\cite{b5}\\
 To accomplish this, a two-stage approach was used, where a broad range of C and gamma values was initially explored, followed by a more focused search of a smaller region to identify the optimal values for these hyperparameters. The implementation of the grid search algorithm used in this project is presented below:
 	\begin{figure}[h]
 	\label{fig:foo}
@@ -86,7 +86,7 @@ To accomplish this, a two-stage approach was used, where a broad range of C and 
 	\end{figure}
 	
 \subsection{KNN}
-K-Nearest Neighbors (KNN) is a supervised learning algorithm that can be utilized for both classification and regression tasks. The fundamental principle of KNN is to classify a data point based on the class labels of its K-nearest neighbors in the feature space. The choice of K, as well as the metric used for calculating distance, are important factors that influence the performance of the model.
+K-Nearest Neighbors (KNN) is a supervised learning algorithm that can be utilized for both classification and regression tasks. The fundamental principle of KNN is to classify a data point based on the class labels of its K-nearest neighbors in the feature space. The choice of K, as well as the metric used for calculating distance, are important factors that influence the performance of the model.\cite{b6}\\
 
 %KNN is a popular algorithm due to its simplicity and ease of implementation. It can easily adapt to various training datasets and requires only a few hyperparameters to be tuned, namely the value of K and the distance metric.
 %
@@ -97,12 +97,12 @@ The Support Vector Machine (SVM) is a supervised machine learning algorithm that
 
 To classify the wine quality, the SVM requires input features such as alcohol content, acidity, sugar content, and other sensory attributes. The objective of the SVM is to find a hyperplane or a linear decision boundary that can best separate the various quality categories of wine samples in the feature space. The dimensionality of this hyperplane is higher than the dimensionality of the data, and it is determined by selecting a marginal maximization hyperplane. This approach ensures that the SVM classifier is robust by calculating the distance between the hyperplane and the nearest data point for each quality category.\\
 
-However, in cases where the data is not linearly separable, SVMs utilize kernel functions to transform the data to a higher dimensional space, which makes it linearly separable. Among the commonly used kernel functions for wine quality classification are linear, polynomial, radial basis function (RBF), and sigmoid kernels. These kernels map the data into a new feature space, where the SVM can find a hyperplane that separates the different quality categories with a good margin.\\
+However, in cases where the data is not linearly separable, SVMs utilize kernel functions to transform the data to a higher dimensional space, which makes it linearly separable. Among the commonly used kernel functions for wine quality classification are linear, polynomial, radial basis function (RBF), and sigmoid kernels. These kernels map the data into a new feature space, where the SVM can find a hyperplane that separates the different quality categories with a good margin.\cite{b3}\\
 
 In this project, SVM has been trained with raw data then with the standardized and cleaned data. Then Grid Search is implemented to find the best hyperparameters of C and gamma. With all the methods implemented with SVM model, the accuracy has a 10$\%$ improvement and MSE has a 33$\%$ decrement. 
 
 \subsection{Random Forest}
-Random Forest is an ensemble learning algorithm that is used for classification tasks. It works by constructing multiple decision trees and then combining their predictions to make a final prediction. The algorithm randomly selects a subset of features and a subset of training samples for each decision tree, which helps to reduce overfitting and improve the performance of the model.Also, to simplify the process, the sklearn method of RandomForestClassifier() is used to classify the wine quality. (sklearn). There are eleven features imputed to the ML algorithm. Because the correlation of the wine quality is more related to some features than others, the features need to be considered differently while imputed into the machine learning algorithm. Here are the weights for each feature used in the program :{1: 10, 2: 10, 3: 69, 4: 1, 5: 1, 6: 1, 7: 1, 8: 34, 9: 10, 10: 10, 11: 80.  Those weights are estimated from the input importance of the people originally conducting the experiments.\\
+Random Forest is an ensemble learning algorithm that is used for classification tasks. It works by constructing multiple decision trees and then combining their predictions to make a final prediction. The algorithm randomly selects a subset of features and a subset of training samples for each decision tree, which helps to reduce overfitting and improve the performance of the model.Also, to simplify the process, the sklearn method of $RandomForestClassifier()$ is used to classify the wine quality. (sklearn). There are eleven features imputed to the ML algorithm. Because the correlation of the wine quality is more related to some features than others, the features need to be considered differently while imputed into the machine learning algorithm. Here are the weights for each feature used in the program :{1: 10, 2: 10, 3: 69, 4: 1, 5: 1, 6: 1, 7: 1, 8: 34, 9: 10, 10: 10, 11: 80.  Those weights are estimated from the input importance of the people originally conducting the experiments.\cite{b4}\\
 	\begin{figure}[h]
 	\label{fig:foo}
 	\begin{center}
@@ -147,9 +147,7 @@ The mis-identification figure is shown below:
 	\end{center}
 	\end{figure}\\
 
-
-
-
+\pagebreak\\
 
 \subsection{Random Forest}
 The grid search parameters demonstrated as following:
@@ -182,11 +180,11 @@ The prediction correctness is shown in figure below:\\
 	\begin{figure}[h]
 	\label{fig:foo}
 	\begin{center}
-	\includegraphics[scale=0.3]{RandomForestBar.jpeg}
+	\includegraphics[scale=0.15]{RandomForestBar.jpeg}
 	\caption{Random Forest Correctness}
 	\end{center}
 	\end{figure}\\
-	
+\pagebreak\\
 	
 \section{Conclusion}}
 
@@ -199,8 +197,8 @@ In conclusion, the Random Forest method was found to be the most effective in cl
 
 
 \begin{thebibliography}{00}
-\bibitem{b1} Wine Quality Data Set, https://archive.ics.uci.edu/ml/datasets/wine+quality
-\bibitem{b2} P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis, "Modeling wine preferences by data mining from physicochemical properties," in IEEE Transactions on Neural Networks, vol. 17, no. 5, pp. 1136-1140, Sept. 2006. doi: 10.1109/TNN.2006.176
+\bibitem{b1} P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis, "Modeling wine preferences by data mining from physicochemical properties," in IEEE Transactions on Neural Networks, vol. 17, no. 5, pp. 1136-1140, Sept. 2006. doi: 10.1109/TNN.2006.176
+\bibitem{b2} Wine Quality Data Set, https://archive.ics.uci.edu/ml/datasets/wine+quality
 \bibitem{b3} Scikit$-$learn Support Vector Machine (SVM), https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
 \bibitem{b4} Scikit$-$learn Random Forest Classifier, https://scikit-learn.org/stable/modules/generated sklearn.ensemble.RandomForestClassifier.html
 \bibitem{b5} Scikit-learn Grid Search Cross Validation, https://scikit-learn.org/stable/modules/generated/sklearn.model$_$selection.GridSearchCV.html
