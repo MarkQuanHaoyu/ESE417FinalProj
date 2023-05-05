@@ -37,9 +37,9 @@ liyifei@wustl.edu}
 	This study implemented three machine learning classification methods, KNN, SVM, and Random Forest, on the UCI red-wine dataset to classify wines. Results showed that the KNN method had the lowest performance with an accuracy of 61.97$\%$ and an MSE of 0.4985, while the SVM method performed better with an accuracy of 65.87$\%$ and an MSE of 0.4678. The Random Forest method achieved the highest accuracy of 75$\%$ and the lowest MSE of 0.35. The study highlights the importance of data cleaning and standardization in improving the accuracy and MSE of machine learning models. The findings suggest that the Random Forest method is the most effective approach for wine classification.
 \end{abstract}
 \section{Introduction}
-Machine learning is a branch of artificial intelligence that enables machines to learn from data and make predictions or decisions without being explicitly programmed. It finds applications in a wide range of domains such as image recognition, natural language processing, and predictive modeling. In this project, we aim to use supervised machine learning algorithms to classify a wine quality data set based on 11 given features. While wine was once viewed as a luxury good, it is now enjoyed by a wider range of consumers. Quality evaluation is a crucial part of the certification process and can help to identify influential factors during the wine production process [citation 1]. In our project, these factors will be used as features for our machine learning algorithm.\\
+Machine learning is a branch of artificial intelligence that enables machines to learn from data and make predictions or decisions without being explicitly programmed. It finds applications in a wide range of domains such as image recognition, natural language processing, and predictive modeling. In this project, we aim to use supervised machine learning algorithms to classify a wine quality data set based on 11 given features. While wine was once viewed as a luxury good, it is now enjoyed by a wider range of consumers. Quality evaluation is a crucial part of the certification process and can help to identify influential factors during the wine production process.\cite{b1}In our project, these factors will be used as features for our machine learning algorithm.
 
-The primary objective of this project is to build a machine learning model that can accurately predict the quality of wine into 10 different levels with the given data. Furthermore, we aim to compare the performance of different machine learning algorithms such as Support Vector Machines (SVM), K-Nearest Neighbors (KNN), and Random Forest to determine the most effective algorithm for this task. To improve the accuracy of our model, we have implemented various methods of data cleaning, chosen optimal weight factors, and tuned other hyperparameters. \\
+The primary objective of this project is to build a machine learning model that can accurately predict the quality of wine into 10 different levels with the given data. Furthermore, we aim to compare the performance of different machine learning algorithms such as Support Vector Machines (SVM), K-Nearest Neighbors (KNN), and Random Forest to determine the most effective algorithm for this task. To improve the accuracy of our model, we have implemented various methods of data cleaning, chosen optimal weight factors, and tuned other hyperparameters.
 
 After multiple testing and trial and error iterations, the model was able to achieve an accuracy rate of over 60 percent. Overall, this project demonstrates the effectiveness of supervised machine learning algorithms in predicting the quality of wine based on various influential factors during the production process.\\
 
@@ -57,7 +57,7 @@ The dataset is a collection of 1599 samples, each representing a different red w
 	\begin{figure}[h]
 	\label{fig:foo}
 	\begin{center}
-	\includegraphics[scale=0.35]{quality.png}}
+	\includegraphics[scale=0.35]{quality.png}
 	\caption{Quality distribution of the dataset}
 	\end{center}
 	\end{figure}
@@ -129,6 +129,13 @@ A grid search was then performed for the hyperparameters, with C ranging from 0.
 	\includegraphics[scale=0.5]{SVMResult.png}
 	\caption{SVM Result}
 	\end{center}
+	\end{figure}
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.28]{SVMHeatMap.jpeg}
+	\caption{SVM Grid Search Result}
+	\end{center}
 	\end{figure}\\
 With the methods implementation, the MSE is decreasing, which is a good indicator, because MSE represents the situation of misidentification.
 The mis-identification figure is shown below:
@@ -191,6 +198,13 @@ In conclusion, the Random Forest method was found to be the most effective in cl
 
 
 
-
+\begin{thebibliography}{00}
+\bibitem{b1} Wine Quality Data Set, https://archive.ics.uci.edu/ml/datasets/wine+quality
+\bibitem{b2} P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis, "Modeling wine preferences by data mining from physicochemical properties," in IEEE Transactions on Neural Networks, vol. 17, no. 5, pp. 1136-1140, Sept. 2006. doi: 10.1109/TNN.2006.176
+\bibitem{b3} Scikit$-$learn Support Vector Machine (SVM), https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+\bibitem{b4} Scikit$-$learn Random Forest Classifier, https://scikit-learn.org/stable/modules/generated sklearn.ensemble.RandomForestClassifier.html
+\bibitem{b5} Scikit-learn Grid Search Cross Validation, https://scikit-learn.org/stable/modules/generated/sklearn.model$_$selection.GridSearchCV.html
+\bibitem{b6} Scikit$-$learn K$-$Nearest Neighbors Classifier, https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+\end{thebibliography}
 
 \end{document}
