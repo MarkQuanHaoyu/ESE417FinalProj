@@ -117,6 +117,23 @@ Due to their great variety of hyperparameters, to optimize the accuracy of the m
 \section{Result and Analysis}
 Implementing the three method mentioned above shows Random Forest does the best in all the methods. 
 \subsection{KNN}
+KNN method was implemented with different K number, and the accuracy result is shown below:
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.2]{KNNDiffK.jpeg}
+	\caption{KNN Accuracy with Different K value}
+	\end{center}
+	\end{figure}
+In the context of K-Nearest Neighbor (KNN) algorithm, the relationship between the value of K and the accuracy of both the training and test sets was investigated. The results showed that as K value increases, the accuracy of the training set decreases while the accuracy of the test set increases. A low value of K can cause overfitting of the data to the test set, leading to poor generalization. Conversely, increasing the K value leads to the convergence of the test accuracy and training accuracy, indicating that the KNN model is well trained. These findings suggest that the choice of K value is an important consideration when implementing the KNN algorithm, and a balance must be struck between model complexity and generalization performance. With the well-selected K value the identification situation is shown in the figure below:
+	\begin{figure}[h]
+	\label{fig:foo}
+	\begin{center}
+	\includegraphics[scale=0.35]{KNNResult.png}
+	\caption{KNN Identification Situation}
+	\end{center}
+	\end{figure}
+
 \subsection{SVM}
 In the SVM method, no cleaning was performed on the data, and after feeding the data into the SVM model fit, an accuracy of 53$\%$ was obtained. After cleaning the data, the accuracy improved to 63$\%$. The default settings of the parameters of the SVM model were:\\
 
@@ -147,14 +164,14 @@ The mis-identification figure is shown below:
 	\end{center}
 	\end{figure}\\
 
-\pagebreak\\
+\pagebreak
 
 \subsection{Random Forest}
 The grid search parameters demonstrated as following:
 	\begin{figure}[h]
 	\label{fig:foo}
 	\begin{center}
-	\includegraphics[scale=0.35]{RandomForestGrid.png}
+	\includegraphics[scale=0.4]{RandomForestGrid.png}
 	\caption{Random Forest Grid Search Code}
 	\end{center}
 	\end{figure}
